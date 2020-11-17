@@ -4,93 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind block</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Our Clients</title>
 </head>
 
 <body>
-    <!-- main contianer start -->
-    <div class="container mx-auto py-16 px-4 lg:px-20">
-        <div class="flex justify-center">
-            <div class="text-center xl:w-2/5 md:w-full">
-                <h1 class="pb-2 font-bold text-5xl">Landify Highlights</h1>
-                <p class="text-lg ">Create your landing page design faster with pre-built blocks by spending less time.
-                </p>
+    <section class="client-container flex justify-center w-full bg-gray-100 py-16">
+        <div class="client-inner ">
+            <div class="client-heading flex justify-center items-center flex-col text-center">
+                <h2 class="my-3 text-4xl text-center">Our Clients</h2>
+                <p class="text-center text-lg mb-3 m-0">We have been working with some fortune 500 clients</p>
             </div>
-        </div>
-        <!-- card section start -->
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 row-gap-12 col-gap-6 py-16">
-            <div>
-                <div class="mb-6"><img src="../images/line.svg" /></div>
-                <div>
-                    <h1 class="text-xl font-medium pb-2">Pre-built blocks</h1>
-                    <p class="text-sm font-regular">Kit will be contantly updated with new unique blocks and styles..
-                    </p>
+            <div class="client-logos flex justify-center items-center flex-wrap">
+                <div class="logo">
+                    <div class="w-40 h-20 my-6 mx-4">
+                        <img src="images/images.png" alt="img" class="w-full h-full rounded-3xl" />
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div class="mb-6"><img src="../images/Constantly.svg" /></div>
-                <div>
-                    <h1 class="text-xl font-medium pb-2">Constantly updated</h1>
-                    <p class="text-sm font-regular">Blocks has been built and categorised based on purpose and use case.
-                    </p>
+                <div class="logo">
+                    <div class="w-40 h-20 my-6 mx-4">
+                        <img src="images/google2.0.0.jpg" alt="img" class="w-full h-full rounded-3xl" />
+                    </div>
+                    <div class="w-40 h-20 my-6 mx-4">
+                        <img src="images/Bookmyshow-logoid.png" alt="img" class="w-full h-full rounded-3xl" />
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div class="mb-6"><img src="../images/Organised.svg" /></div>
-                <div>
-                    <h1 class="text-xl font-medium pb-2">Organised components</h1>
-                    <p class="text-sm font-regular">The layers and components are organised and named properly.</p>
+                <div class="logo">
+                    <div class="w-40 h-20 my-6 mx-4">
+                        <img src="images/mslogo.jpg" alt="img" class="w-full h-full rounded-3xl" />
+                    </div>
+                    <div class="w-40 h-20 my-6 mx-4">
+                        <img src="images/Fedex-logo.png" alt="img" class="w-full h-full rounded-3xl" />
+                    </div>
+                    <div class="w-40 h-20 my-6 mx-4">
+                        <img src="images/wal.jpg" alt="img" class="w-full h-full rounded-3xl" />
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div class="mb-6"><img src="../images/Organised12.svg" /></div>
-                <div>
-                    <h1 class="text-xl font-medium pb-2">Free typeface</h1>
-                    <p class="text-sm font-regular">Free google font is used in the kit with clearly defined text
-                        styles.</p>
+                <div class="logo">
+                    <div class="w-40 h-20 my-6 mx-4">
+                        <img src="images/Oyo-Rooms-Logo.jpg" alt="img" class="w-full h-full rounded-3xl" />
+                    </div>
+                    <div class="w-40 h-20 my-6 mx-4">
+                        <img src="images/ola-cabs-logo.png" alt="img" class="w-full h-full rounded-3xl" />
+                    </div>
                 </div>
-            </div>
-            <div>
-                <div class="mb-6"><img src="../images/Easily.svg" /></div>
-                <div>
-                    <h1 class="text-xl font-medium pb-2">Easily customisable</h1>
-                    <p class="text-sm font-regular">You can customise the kit as per your need for the project.</p>
-                </div>
-            </div>
-            <div>
-                <div class="mb-6"><img src="../images/Easily.svg" /></div>
-                <div>
-                    <h1 class="text-xl font-medium pb-2">Create in minutes</h1>
-                    <p class="text-sm font-regular">Make your landing page design in minutes with Landify. Save your
-                        time.</p>
-                </div>
-            </div>
-            <div>
-                <div class="mb-6"><img src="../images/Create.svg" /></div>
-                <div>
-                    <h1 class="text-xl font-medium pb-2">Bootstrap grid</h1>
-                    <p class="text-sm font-regular">The kit is designed based on bootstrap grid with resizing
-                        contraints.</p>
-                </div>
-            </div>
-            <div>
-                <div class="mb-6"><img src="../images/Bootstrap.svg" /></div>
-                <div>
-                    <h1 class="text-xl font-medium pb-2">Bootstrap grid</h1>
-                    <p class="text-sm font-regular">The kit is designed based on bootstrap grid with resizing
-                        contraints.</p>
+                <div class="logo">
+                    <div class="w-40 h-20 my-6 mx-4">
+                        <img src="images/amazon.jpg" alt="img" class="w-full h-full rounded-3xl" />
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- card section end -->
-        <!-- button section start -->
-        <div class="flex justify-center">
-            <button class="bg-purplecolor py-4 px-5 rounded text-white font-bold">Get Landify</button>
-        </div>
-        <!-- button section end -->
-    </div>
-    <!-- main contianer end -->
+    </section>
 </body>
 
 </html>
